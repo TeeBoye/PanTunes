@@ -1,0 +1,32 @@
+.page-title {
+  display: flex;
+}
+.title-text {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--purewhite);
+}
+.navigation-container {
+  background-color: var(--gray);
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+}
+.cover-container {
+  background-image: url("../images/Cover\ ads.png");
+  height: 472px;
+  width: 58.5rem;
+  border-radius: 8px;
+  padding: 68px;
+  display: flex;
+  justify-content: flex-end;
+}
+.cover-container img {
+  width: 336px;
+  height: 336px;
+  border-radius: 8px;
+}
